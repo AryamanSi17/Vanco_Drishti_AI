@@ -46,12 +46,7 @@ Monitoring hundreds of live CCTV feeds manually is overwhelming and prone to vis
 
 ## Architecture
 
-![Architecture Diagram]()
-
-- **Edge AI Devices:** Initial video input and object detection via Vertex AI Vision models.  
-- **Cloud Data Lake:** Streamlined numerical data pipelines ingest and store feature-engineered signals in BigQuery.  
-- **AI Agent (Gemini):** Uses LangChain for intelligent reasoning and natural language understanding over structured event data.  
-- **Control Room Dashboard:** Firebase-powered UI for operators with real-time alerts and visualizations.  
+![Architecture Diagram](images/Architecture.png)
 
 ---
 
